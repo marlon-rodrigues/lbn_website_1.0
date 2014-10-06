@@ -9,7 +9,7 @@ CSS for footer file
 #footer_nav {
     background: black;
     //background: #95C760;
-    height: 24.2em;
+    height: 26.2em;
     width: 100%;
     font-size: 0.8em;
     font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
@@ -20,7 +20,7 @@ CSS for footer file
 }
 
 #footer_wrapper {
-    height: 20em;
+    height: 22em;
     background: #39657C;
 }
 
@@ -75,4 +75,11 @@ h3 {
 
 #footer_terms p {
     font-size: 1.1em;
+}
+
+#footer_message {
+    display: inline-block;
+    margin-left: 24.7%;
+    margin-top: 0.8em;
+    font-size: 1.3em;
 }
