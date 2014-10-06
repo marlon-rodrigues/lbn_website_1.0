@@ -1,0 +1,18 @@
+/*
+CSS file to support the system
+*/
+/* 
+    Created on : Oct 4, 2014, 9:56:37 AM
+    Author     : marlongeraldorodriguesviana
+*/
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
