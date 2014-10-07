@@ -83,7 +83,8 @@ body {
 #sub_main_container {
     background: #39657C;
     margin-top: -1em;
-    height: 3.4em;
+    min-height: 3.4em;
+    height: auto;
 }
 
 #sub_main_container p {
