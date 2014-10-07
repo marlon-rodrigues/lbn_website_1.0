@@ -49,21 +49,23 @@ body {
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 25em;
     text-align: center;
 }
 
 #mac_ipad_img {
     width: 23em;
     background: white;
-    margin-top: -11.8em;
+    position: relative;
+    //margin-top: -11.8em;
     //margin-left: 65em;
-    margin-left: 50%;
+    //margin-left: 50%;
 }
 
 #main_prog_text_wrapper {
     //width: 80%;
     margin-top: 4.5em;
+    position: absolute;
 }
 
 #main_prog_title {
