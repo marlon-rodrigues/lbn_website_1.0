@@ -47,7 +47,7 @@ body {
 #main_prog_info {
     width: 100%;
     height: 100%;
-    position: absolute;
+    //position: absolute;
     top: 0;
     left: 25em;
     text-align: center;
@@ -55,17 +55,17 @@ body {
 
 #mac_ipad_img {
     width: 23em;
-    background: white;
-    position: relative;
-    //margin-top: -11.8em;
+    //background: white;
+    //position: relative;
+    margin-top: -4em;
     //margin-left: 65em;
     //margin-left: 50%;
 }
 
 #main_prog_text_wrapper {
     //width: 80%;
-    margin-top: 4.5em;
-    position: absolute;
+    margin-top: 2em;
+    //position: absolute;
 }
 
 #main_prog_title {
@@ -74,8 +74,14 @@ body {
 }
 
 #main_prog_text_1 {
-    width: 30%;
+    width: 35%;
     display: inline-block;
     font-size: 1em;
     margin-top: -0.5em;
+}
+
+.main_prog_info_divs {
+    width: 75em;
+    display: inline-block;
+    margin-left: -15em;
 }
