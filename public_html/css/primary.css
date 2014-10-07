@@ -57,7 +57,8 @@ body {
     width: 23em;
     background: white;
     margin-top: -11.8em;
-    margin-left: 65em;
+    //margin-left: 65em;
+    margin-left: 50%;
 }
 
 #main_prog_text_wrapper {
