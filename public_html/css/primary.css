@@ -16,3 +16,58 @@ body {
    min-height:100%;
    position:relative;
 }
+
+#content {
+	padding-bottom:26.6em;   /* Height of the footer element */
+}
+
+#main_prog_container {
+    width: 100%;
+    height: 18em;
+    position: relative;
+}
+
+
+#main_prog_image {
+    width: 100%;
+    height: 100%;
+    //background-image: url('../images/web_spider.jpg');    
+    //background-image: url('../images/eletrical.jpg');    
+    background-image: url('../images/web_spider2.jpg');    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    //background: #A9A7AA;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#main_prog_info {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+#mac_ipad_img {
+    width: 23em;
+    float: right;
+    background: white;
+    margin-top: -5.6em;
+}
+
+#main_prog_title {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+#main_prog_text_1 {
+    width: 30%;
+    display: inline-block;
+    margin-left: 22.5%;
+    font-size: 1em;
+}
