@@ -122,12 +122,12 @@
 }
 .nivo-prevNav {
 	left:0px;
-        margin-left:35em;
+        margin-left:30%;
         margin-top: -1em;
 }
 .nivo-nextNav {
 	right:0px;
-        margin-right: 35em;
+        margin-right: 30%;
         margin-top: -0.8em;
 }
 /* Control nav styles (e.g. 1,2,3...) */
