@@ -1,0 +1,108 @@
+/*
+CSS for contact file
+*/
+/* 
+    Created on : Oct 11, 2014, 4:11:22 PM
+    Author     : marlongeraldorodriguesviana
+*/
+#content {
+    font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
+}
+
+#contact_head {
+    text-align: center;
+    //background-image: url('../images/st_louis.png'); 
+    background-image: url('../images/St_louis_5.jpg'); 
+    background-size: 120em;
+    height: 25em;
+    opacity: 0.7;
+}
+
+#contact_transbox {
+    position: absolute;
+    width: 40em;
+    height: 15em;
+    margin-top: 3em;
+    margin-left: 35%;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 0.1em solid rgba(0, 0, 0, 0.45);
+    opacity: 1;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    border-radius: 0.1em;
+}
+
+.transbox_title {
+    font-weight: 900 !important;
+    color: white !important;
+    text-align: center !important;
+    margin-top: 1.5em !important;
+    font-size: 2em !important;
+}
+
+#contact_transbox p {
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 1.1em;
+}
+
+#contact_wrapper {
+    height: 18.5em;
+    font-size: 0.9em;
+    margin-top: 2em;
+    margin-bottom: -4em;
+}
+
+#contact_info_1 {
+    width: 15em;
+    float: left;
+    display: inline-block;
+    margin-left: 29%;
+}
+
+#contact_info_1 p {
+    margin-top: 2em;
+}
+
+#contact_info_2 {
+    width: 28em;
+    float: left;
+    display: inline-block;
+}
+
+.info_table {
+    margin-top: 2em;
+}
+
+.info_table td {
+     width: 10.5em;
+}
+
+#contact_info_3 {
+    width: 20em;
+    float: left;
+    display: inline-block;
+}
+
+#contact_info_3 p {
+    margin-top: 2em;
+}
+
+h2 {
+    color: #2F3B40;
+    font-size: 1.5em !important;
+}
+
+#contact_map {
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#contact_map p {
+    margin-top: 2em;
+}
+
+
+
