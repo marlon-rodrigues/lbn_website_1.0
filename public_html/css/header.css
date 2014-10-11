@@ -48,3 +48,19 @@ CSS for Header file
     width: 12em;
 }
 
+#nav_container a {
+    text-decoration: none;
+}
+
+#nav_container a:visited {
+    color: #222222;
+}
+
+#nav_container a:hover {
+    color: #F35D25;
+}
+
+#nav_container a.active {
+    color: #F35D25;
+}
+
