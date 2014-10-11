@@ -8,6 +8,16 @@ Author URI: http://dev7studios.com
 Supports Thumbs: true
 */
 
+.theme-default {
+	margin-top:-1em;
+}
+
+@-moz-document url-prefix() { 
+    .theme-default {
+	margin-top:0em;
+    }
+}
+
 .theme-default .nivoSlider {
 	position:relative;
 	//background:#fff url(loading.gif) no-repeat 50% 50%;

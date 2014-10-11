@@ -23,7 +23,7 @@ body {
 
 #main_prog_container {
     width: 100%;
-    height: 18em;
+    height: auto;
     position: relative;
 }
 
