@@ -10,11 +10,9 @@
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
-	//width:100%;
         width:100%;
 	height:auto;
 	overflow: hidden;
-        //margin-top: -1em;
 }
 .nivoSlider img {
         opacity: 1;
@@ -22,7 +20,6 @@
 	top:0px;
 	left:0px;
 	max-width: none;
-        //margin-left:-52em;
         margin-left:-130em;
         width: 8em !important;
         height: 6.5em !important;
@@ -30,10 +27,8 @@
 .nivo-main-image {
 	display: block !important;
 	position: relative !important; 
-	//width: 100% !important;
         width: 8em !important;
         height: 6.5em !important;
-        //margin-left: 25em;
 }
 
 /* If an image is wrapped in a link */
@@ -55,7 +50,6 @@
 /* The slices and boxes in the Slider */
 .nivo-slice {
 	display:block;
-        //display:none;
 	position:absolute;
 	z-index:5;
 	height:100%;
@@ -63,7 +57,6 @@
 }
 .nivo-box {
 	display:block;
-        //display:none;
 	position:absolute;
 	z-index:5;
 	overflow:hidden;
@@ -77,22 +70,14 @@
 	bottom:0px;
 	background:#000;
 	color:#fff;
-        
-        //height: 65px;
         padding: 8px;
         position: absolute;
         right: 38px;
         top: 40px;
-        //width: 87%;
         width: 100%;
         z-index: 8;
-        //margin-left:8em;
         margin-top:-2.5em;
         height: 100%;
-        
-	//width:100%;
-	//z-index:8;
-	//padding: 5px 10px;
 	opacity: 0.8;
 	overflow: hidden;
 	display: none;
@@ -131,7 +116,6 @@
 }
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
-	//text-align:center;
 	padding: 15px 0;
         margin-top: -0.8em;
 }
