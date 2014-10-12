@@ -22,6 +22,8 @@ CSS for footer file
 #footer_wrapper {
     height: 18.5em;
     background: #39657C;
+    width: 100%;
+    text-align: center;
 }
 
 h2 {
@@ -40,21 +42,23 @@ h3 {
 
 #footer_info_1 {
     width: 15em;
-    float: left;
-    margin-left: 33%;
     display: inline-block;
+    vertical-align: top;
+    text-align: left !important;
 }
 
 #footer_info_2 {
-    width: 10em;
-    float: left;
+    width: 12em;
     display: inline-block;
+    vertical-align: top;
+    text-align: left !important;
 }
 
 #footer_info_3 {
     width: 20em;
-    float: left;
     display: inline-block;
+    vertical-align: top;
+    text-align: left !important;
 }
 
 #footer_info_1 p {

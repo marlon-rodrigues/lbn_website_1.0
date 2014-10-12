@@ -23,12 +23,13 @@ CSS for contact file
     width: 40em;
     height: 15em;
     margin-top: 3em;
-    margin-left: 35%;
+    margin-left: -20em;
     background-color: rgba(0, 0, 0, 0.45);
     border: 0.1em solid rgba(0, 0, 0, 0.45);
     opacity: 1;
     filter: alpha(opacity=80); /* For IE8 and earlier */
     border-radius: 0.1em;
+    left: 50%;
 }
 
 .transbox_title {
@@ -50,15 +51,17 @@ CSS for contact file
 #contact_wrapper {
     height: 18.5em;
     font-size: 0.9em;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: -4em;
+    width: 100%;
+    text-align: center;
 }
 
 #contact_info_1 {
-    width: 15em;
-    float: left;
+    width: 14em;
     display: inline-block;
-    margin-left: 29%;
+    vertical-align: top;
+    text-align: left !important;
 }
 
 #contact_info_1 p {
@@ -67,8 +70,9 @@ CSS for contact file
 
 #contact_info_2 {
     width: 28em;
-    float: left;
     display: inline-block;
+    vertical-align: top;
+    text-align: left !important;
 }
 
 .info_table {
@@ -81,15 +85,16 @@ CSS for contact file
 
 #contact_info_3 {
     width: 20em;
-    float: left;
     display: inline-block;
+    vertical-align: top;
+    text-align: left !important;
 }
 
 #contact_info_3 p {
     margin-top: 2em;
 }
 
-h2 {
+#contact_wrapper h2 {
     color: #2F3B40;
     font-size: 1.5em !important;
 }
