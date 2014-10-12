@@ -70,7 +70,7 @@ CSS for Header file
 #solutions_subnav {
     //display: none;
     width: 10em;
-    margin-left: 36%;
+    margin-left: 40%;
     background: #FFFFFF;
     border-top: 0.2em solid #FFFFFF;
     margin-top: 0.5em;
@@ -78,7 +78,6 @@ CSS for Header file
     border-right: 0.2em solid #004762;
     border-bottom: 0.2em solid #004762;
     text-align: left;
-    z-index: 30;
 }
 
 #solutions_subnav ul {
@@ -87,8 +86,9 @@ CSS for Header file
 
 #sub_header_wrapper {
     margin-top: -0.7em;
-    z-index: 1;
-    position: relative;
+    z-index: 20;
+    position: absolute;
+    width: 100%;
 }
 
 
