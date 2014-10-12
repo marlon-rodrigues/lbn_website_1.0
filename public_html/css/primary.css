@@ -19,6 +19,7 @@ body {
 
 #content {
 	padding-bottom:26.6em;   /* Height of the footer element */
+        margin-top: -5em;
 }
 
 #main_prog_container {
