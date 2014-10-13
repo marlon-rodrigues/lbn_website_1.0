@@ -1,0 +1,90 @@
+/*
+    CSS for about file
+*/
+/* 
+    Created on : Oct 13, 2014, 9:21:27 AM
+    Author     : marlongeraldorodriguesviana
+*/
+#content {
+    font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
+}
+
+#about_head {
+    text-align: center;
+    //background-image: url('../images/st_louis.png'); 
+    background-image: url('../images/ethernet_1.jpg'); 
+    background-size: 120em;
+    height: 25em;
+    opacity: 0.7;
+}
+
+#about_transbox {
+    position: absolute;
+    width: 50em;
+    height: 18.5em;
+    margin-top: 3em;
+    margin-left: -25em;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 0.1em solid rgba(0, 0, 0, 0.45);
+    opacity: 1;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    border-radius: 0.1em;
+    left: 50%;
+}
+
+.about_title {
+    font-weight: 900 !important;
+    color: white !important;
+    text-align: center !important;
+    margin-top: 1.5em !important;
+    font-size: 2em !important;
+}
+
+#about_transbox p {
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 1.1em;
+}
+
+.about_sections {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.about_sections_container {
+    width: 70em;
+    position: absolute;
+    margin-left: -35em;
+    left: 50%;
+    text-align: left !important;
+}
+
+#about_section_1 {
+    height: 12em;
+    margin-top: 4em;
+}
+
+#about_section_2 {
+    height: 21em;
+    background: #F7F7F7;
+    padding-top: 3em;
+}
+
+#about_section_3 {
+    height: 27em;
+    padding-top: 3em;
+}
+
+#about_section_4 {
+    height: 28em;
+    background: #F7F7F7;
+    padding-top: 3em;
+}
+
+#about_section_5 {
+    height: 10em;
+    padding-top: 3em;
+}
