@@ -93,3 +93,46 @@ h3 {
 #footer_message p {
     height: 1em;
 }
+
+#footer_wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer_wrapper a:visited {
+    color: white;
+    font-weight: 900;
+}
+
+#footer_wrapper a:hover {
+    color: #1B303C;
+    cursor: pointer;
+}
+
+.title_link {
+    color: black !important;
+}
+
+.title_link:hover{
+    color: #222222 !important;
+    cursor: pointer !important;
+}
+
+.title_link:visited {
+    color: black;
+    font-weight: 900;
+}
+
+.super_title_link {
+    color: black !important;
+}
+
+.super_title_link:hover{
+    color: #222222 !important;
+    cursor: pointer !important;
+}
+
+.super_title_link:visited {
+    color: black;
+    font-weight: 900;
+}

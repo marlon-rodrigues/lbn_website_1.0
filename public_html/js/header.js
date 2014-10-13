@@ -7,6 +7,14 @@ $(document).ready(function(){
        $('#contact_us').addClass('active');
    } 
    
+   $('#solutions_nav').mouseover(function(){ 
+      $('#solutions_subnav').show(); 
+   });
+   
+   $('#solutions_nav').mouseout(function(){ 
+      $('#solutions_subnav').hide(); 
+   });
+   
 });
 
 
