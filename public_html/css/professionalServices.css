@@ -1,0 +1,136 @@
+/*
+CSS for professional services page
+*/
+/* 
+    Created on : Oct 14, 2014, 9:33:59 AM
+    Author     : marlongeraldorodriguesviana
+*/
+#content {
+    font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
+    height: 166em;
+}
+
+#ps_head {
+    text-align: center;
+    background-image: url('../images/network_1.jpg'); 
+    background-size: 120em;
+    height: 24em;
+    opacity: 0.7;
+}
+
+#ps_transbox {
+    position: absolute;
+    width: 50em;
+    height: 16em;
+    margin-top: 3em;
+    margin-left: -25em;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 0.1em solid rgba(0, 0, 0, 0.45);
+    opacity: 1;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    border-radius: 0.1em;
+    left: 50%;
+}
+
+.ps_title {
+    font-weight: 900 !important;
+    color: white !important;
+    text-align: center !important;
+    margin-top: 1.5em !important;
+    font-size: 2em !important;
+}
+
+#ps_transbox p {
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 1.1em;
+    padding: 0 1em 0 1em;
+}
+
+.ps_sections {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.ps_sections_container {
+    width: 60em;
+    position: absolute;
+    margin-left: -30em;
+    left: 50%;
+    text-align: left !important;
+}
+
+#ps_subtitle {
+    color: #253639;
+    font-size: 2em;
+    font-weight: 900;
+    width: 40em;
+    margin-left: -20em;
+    margin-top: 2em;
+    left: 50%;
+}
+
+#ps_subtitle a {
+    font-size: 0.7em !important;
+    font-weight: 900;
+    text-decoration: none;
+    color: #253639
+}
+
+.ps_sections_container {
+    width: 60em;
+    position: absolute;
+    margin-left: -30em;
+    left: 50%;
+    text-align: left !important;
+}
+
+#ps_section_1 {
+    height: 38em;
+    margin-top: 3.5em;
+}
+
+#ps_section_2 {
+    height: 27em;
+    padding-top: 2.5em;
+    background: #F7F7F7;
+}
+
+#ps_section_3 {
+    height: 35em;
+    padding-top: 2.5em;
+}
+
+#ps_section_4 {
+    height: 31em;
+    padding-top: 2.5em;
+    background: #F7F7F7;
+}
+
+.ps_info_title {
+    color: #253639;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.ps_info a {
+    text-decoration: none;
+}
+
+.ps_info a:hover{
+    color: #222222 !important;
+    cursor: pointer !important;
+}
+
+.ps_info a:visited {
+    color: black;
+    cursor: pointer !important;
+}
+
+.ps_destac {
+    color: #253639;
+    font-weight: 900;
+}
