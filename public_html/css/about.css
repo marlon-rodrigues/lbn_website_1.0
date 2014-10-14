@@ -46,6 +46,7 @@
     text-align: center;
     margin-top: 1.5em;
     font-size: 1.1em;
+    padding: 0 1em 0 1em;
 }
 
 .about_sections {
@@ -55,36 +56,56 @@
 }
 
 .about_sections_container {
-    width: 70em;
+    width: 60em;
     position: absolute;
-    margin-left: -35em;
+    margin-left: -30em;
     left: 50%;
     text-align: left !important;
 }
 
 #about_section_1 {
-    height: 12em;
-    margin-top: 4em;
+    height: 13em;
+    margin-top: 3.5em;
 }
 
 #about_section_2 {
-    height: 21em;
+    height: 24em;
     background: #F7F7F7;
-    padding-top: 3em;
+    padding-top: 2.5em;
 }
 
 #about_section_3 {
-    height: 27em;
-    padding-top: 3em;
+    height: 29em;
+    padding-top: 2.5em;
 }
 
 #about_section_4 {
-    height: 28em;
+    height: 32em;
     background: #F7F7F7;
-    padding-top: 3em;
+    padding-top: 2.5em;
 }
 
 #about_section_5 {
-    height: 10em;
-    padding-top: 3em;
+    height: 9em;
+    padding-top: 2.5em;
+}
+
+.about_info_title {
+    color: #253639;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.about_info a {
+    text-decoration: none;
+}
+
+.about_info a:hover{
+    color: #222222 !important;
+    cursor: pointer !important;
+}
+
+.about_info a:visited {
+    color: black;
+    cursor: pointer !important;
 }
