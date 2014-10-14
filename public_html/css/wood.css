@@ -1,16 +1,16 @@
 /*
-CSS for ocularip file
+CSS for wood file
 */
 /* 
-    Created on : Oct 13, 2014, 9:07:57 PM
+    Created on : Oct 14, 2014, 10:28:49 AM
     Author     : marlongeraldorodriguesviana
 */
 #content {
     font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
-    height: 223em;
+    height: 70em;
 }
 
-#ocularip_head {
+#wood_head {
     text-align: center;
     background-image: url('../images/network_1.jpg'); 
     background-size: 120em;
@@ -18,7 +18,7 @@ CSS for ocularip file
     opacity: 0.7;
 }
 
-#ocularip_transbox {
+#wood_transbox {
     position: absolute;
     width: 50em;
     height: 16em;
@@ -32,7 +32,7 @@ CSS for ocularip file
     left: 50%;
 }
 
-.ocularip_title {
+.wood_title {
     font-weight: 900 !important;
     color: white !important;
     text-align: center !important;
@@ -40,7 +40,7 @@ CSS for ocularip file
     font-size: 2em !important;
 }
 
-#ocularip_transbox p {
+#wood_transbox p {
     font-weight: normal;
     color: white;
     text-align: center;
@@ -49,13 +49,13 @@ CSS for ocularip file
     padding: 0 1em 0 1em;
 }
 
-.ocularip_sections {
+.wood_sections {
     text-align: center;
     position: relative;
     width: 100%;
 }
 
-.ocularip_sections_container {
+.wood_sections_container {
     width: 60em;
     position: absolute;
     margin-left: -30em;
@@ -63,71 +63,27 @@ CSS for ocularip file
     text-align: left !important;
 }
 
-#ocularip_subtitle {
-    color: #253639;
-    font-size: 2em;
-    font-weight: 900;
-    width: 40em;
-    margin-left: -20em;
-    margin-top: 2em;
-    left: 50%;
-}
-
-#ocularip_subtitle a {
-    font-size: 0.7em !important;
-    font-weight: 900;
-    text-decoration: none;
-    color: #253639
-}
-
-#ocularip_section_1 {
-    height: 28em;
+#wood_section_1 {
     margin-top: 3.5em;
 }
 
-#ocularip_section_2 {
-    height: 80em;
-    padding-top: 2.5em;
-    background: #F7F7F7;
-}
-
-#ocularip_section_3 {
-    height: 62em;
-    padding-top: 2.5em;
-}
-
-#ocularip_section_4 {
-    height: 19em;
-    padding-top: 2.5em;
-    background: #F7F7F7;
-}
-
-.ocularip_info_title {
+.wood_info_title {
     color: #253639;
     font-size: 1.5em;
     font-weight: 900;
 }
 
-.ocularip_info a {
+.wood_info a {
     text-decoration: none;
 }
 
-.ocularip_info a:hover{
+.wood_info a:hover{
     color: #222222 !important;
     cursor: pointer !important;
 }
 
-.ocularip_info a:visited {
+.wood_info a:visited {
     color: black;
     cursor: pointer !important;
 }
 
-.ocularip_info_subtitle {
-    color: #F35D25;
-    font-weight: 900;
-}
-
-.ocularip_destac {
-    color: #253639;
-    font-weight: 900;
-}

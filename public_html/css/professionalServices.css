@@ -80,14 +80,6 @@ CSS for professional services page
     color: #253639
 }
 
-.ps_sections_container {
-    width: 60em;
-    position: absolute;
-    margin-left: -30em;
-    left: 50%;
-    text-align: left !important;
-}
-
 #ps_section_1 {
     height: 38em;
     margin-top: 3.5em;
