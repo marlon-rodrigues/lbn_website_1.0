@@ -5,7 +5,11 @@ $(document).ready(function(){
    
    if(sPage == 'contact'){ 
        $('#contact_us').addClass('active');
-   } 
+   } else if(sPage == 'about'){ 
+       $('#about_lbn').addClass('active');
+   } else if(sPage == 'news'){ 
+       $('#lbn_news').addClass('active');
+   }
    
    $('#solutions_nav').mouseover(function(){ 
       $('#solutions_subnav').show(); 

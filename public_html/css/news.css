@@ -1,0 +1,139 @@
+/*
+CSS for news page
+*/
+/* 
+    Created on : Oct 13, 2014, 7:44:42 PM
+    Author     : marlongeraldorodriguesviana
+*/
+
+#content {
+    font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
+    height: 75em;
+}
+
+#news_head {
+    text-align: center;
+    background-image: url('../images/news_3.jpg'); 
+    background-size: 120em;
+    height: 10em;
+    opacity: 0.7;
+}
+
+#news_transbox {
+    position: absolute;
+    width: 28em;
+    margin-top: 1em;
+}
+
+.news_title {
+    font-weight: 900 !important;
+    color: black !important;
+    text-align: center !important;
+    font-size: 2.8em !important;
+}
+
+#news_bottombox {
+    float: right;
+    margin-top: 7.4em;
+    color: black !important;
+    font-weight: bold;
+    padding-right: 1em;
+}
+
+#news_bottombox a {
+    font-weight: 900;
+    text-decoration: none;
+    color: black !important;
+}
+
+#news_bottombox a:hover{
+    color: black !important;
+    cursor: pointer !important;
+}
+
+#news_bottombox a:visited {
+    color: black !important;
+    cursor: pointer !important;
+}
+
+.news_sections {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+#news_subtitle {
+    color: #253639;
+    font-size: 2em;
+    font-weight: 900;
+    width: 40em;
+    margin-left: -20em;
+    margin-top: 2em;
+    left: 50%;
+}
+
+#news_subtitle a {
+    font-size: 0.7em !important;
+    font-weight: 900;
+    text-decoration: none;
+    color: #253639
+}
+
+.news_sections_container {
+    width: 60em;
+    position: absolute;
+    margin-left: -30em;
+    left: 50%;
+    text-align: left !important;
+}
+
+#news_section_1 {
+    height: 26em;
+    margin-top: 3.5em;
+}
+
+#news_section_2 {
+    height: 33em;
+    background: #F7F7F7;
+    padding-top: 2.5em;
+}
+
+.news_info_title {
+    color: #253639;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.news_info_subtitle {
+    color: #F35D25;
+    font-size: 1.2em;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.news_info_subtitle_date {
+    color: #F35D25;
+    font-size: 1em;
+    font-weight: 900;
+    display: inline-block;
+    float: right;
+    padding-right: 3em;
+    margin-top: 1.3em;
+}
+
+.news_sections_container a{
+    font-weight: 900;
+    text-decoration: none;
+    color: #222222
+}
+
+.news_sections_container a:hover{
+    color: #222222 !important;
+    cursor: pointer !important;
+}
+
+.news_sections_container a:visited {
+    color: #222222;
+    cursor: pointer !important;
+}
+
