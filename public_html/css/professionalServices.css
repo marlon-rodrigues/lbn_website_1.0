@@ -7,7 +7,7 @@ CSS for professional services page
 */
 #content {
     font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
-    height: 166em;
+    height: 177em;
 }
 
 #ps_head {
@@ -56,10 +56,10 @@ CSS for professional services page
 }
 
 .ps_sections_container {
-    width: 60em;
+    width: 64em;
     position: absolute;
-    margin-left: -30em;
-    left: 50%;
+    margin-left: -32em;
+    left: 46%;
     text-align: left !important;
 }
 
@@ -81,23 +81,23 @@ CSS for professional services page
 }
 
 #ps_section_1 {
-    height: 38em;
+    height: 42em;
     margin-top: 3.5em;
 }
 
 #ps_section_2 {
-    height: 27em;
+    height: 31em;
     padding-top: 2.5em;
     background: #F7F7F7;
 }
 
 #ps_section_3 {
-    height: 35em;
+    height: 36em;
     padding-top: 2.5em;
 }
 
 #ps_section_4 {
-    height: 31em;
+    height: 33em;
     padding-top: 2.5em;
     background: #F7F7F7;
 }
@@ -106,6 +106,7 @@ CSS for professional services page
     color: #253639;
     font-size: 1.5em;
     font-weight: 900;
+    margin-left: 9.3em;
 }
 
 .ps_info a {
@@ -125,4 +126,77 @@ CSS for professional services page
 .ps_destac {
     color: #253639;
     font-weight: 900;
+}
+
+.ps_info p {
+    position: absolute;
+    display: inline-block;
+}
+
+.ps_info ul {
+    position: absolute;
+    display: inline-block;
+}
+
+.ps_image_globe {
+    width: 12em;
+    position: relative;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+#ps_subsection_info_11 {
+    margin-top: 0.5em;
+}
+
+#ps_subsection_info_12 {
+    margin-top: 9em;
+}
+
+#ps_subsection_info_13 {
+    margin-top: 16em;
+}
+
+#ps_subsection_info_14 {
+    margin-top: 24em;
+}
+
+#ps_subsection_info_15 {
+    margin-top: 26em;
+}
+
+#ps_subsection_info_21 {
+    margin-top: 0.5em;
+}
+
+#ps_subsection_info_22 {
+    margin-top: 5em;
+}
+
+#ps_subsection_info_23 {
+    margin-top: 11em;
+}
+
+#ps_subsection_info_24 {
+    margin-top: 17em;
+}
+
+#ps_subsection_info_31 {
+    margin-top: 0.5em;
+}
+
+#ps_subsection_info_32 {
+    margin-top: 3em;
+}
+
+#ps_subsection_info_33 {
+    margin-top: 15em;
+}
+
+#ps_subsection_info_34 {
+    margin-top: 22em;
+}
+
+#ps_subsection_info_41 {
+    margin-top: 0.5em;
 }
