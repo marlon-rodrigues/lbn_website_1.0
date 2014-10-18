@@ -7,7 +7,7 @@ CSS for ocularip file
 */
 #content {
     font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
-    height: 240em;
+    height: 246em;
 }
 
 #ocularip_head {
@@ -97,7 +97,7 @@ CSS for ocularip file
 }
 
 #ocularip_section_4 {
-    height: 19em;
+    height: 25em;
     padding-top: 2.5em;
     background: #F7F7F7;
 }

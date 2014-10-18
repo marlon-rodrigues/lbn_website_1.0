@@ -7,7 +7,7 @@ CSS for wood file
 */
 #content {
     font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
-    height: 70em;
+    height: 73em;
 }
 
 #wood_head {
@@ -56,10 +56,10 @@ CSS for wood file
 }
 
 .wood_sections_container {
-    width: 60em;
+    width: 64em;
     position: absolute;
-    margin-left: -30em;
-    left: 50%;
+    margin-left: -32em;
+    left: 46%;
     text-align: left !important;
 }
 
@@ -71,6 +71,7 @@ CSS for wood file
     color: #253639;
     font-size: 1.5em;
     font-weight: 900;
+    margin-left: 9.3em;
 }
 
 .wood_info a {
@@ -87,3 +88,31 @@ CSS for wood file
     cursor: pointer !important;
 }
 
+.wood_info p {
+    position: absolute;
+    display: inline-block;
+}
+
+.wood_info ul {
+    position: absolute;
+    display: inline-block;
+}
+
+.wood_image_globe {
+    width: 12em;
+    position: relative;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+#wood_subsection_info_11 {
+    margin-top: 0.5em;
+}
+
+#wood_subsection_info_12 {
+    margin-top: 9em;
+}
+
+#wood_subsection_info_13 {
+    margin-top: 26em;
+}
