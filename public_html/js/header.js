@@ -9,6 +9,8 @@ $(document).ready(function(){
        $('#about_lbn').addClass('active');
    } else if(sPage == 'news'){ 
        $('#lbn_news').addClass('active');
+   } else if(sPage == 'ocularip' || sPage == 'professionalServices' || sPage == 'wood'){ 
+       $('#solutions').addClass('active');
    }
    
    $('#solutions_nav').mouseover(function(){ 
