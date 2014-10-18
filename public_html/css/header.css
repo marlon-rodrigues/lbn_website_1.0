@@ -5,6 +5,16 @@ CSS for Header file
     Created on : Oct 4, 2014, 9:56:44 AM
     Author     : marlongeraldorodriguesviana
 */
+@-moz-document url-prefix() {
+    #sub_header_wrapper {
+        margin-top: -0.7em;
+        z-index: 20;
+        position: absolute;
+        width: 100%;
+        margin-left: 7em;
+    }
+}
+
 #header_nav {
     background: #FFFFFF;
     //height: 5em;
