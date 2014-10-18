@@ -21,7 +21,12 @@ and open the template in the editor.
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="js/vendor/jquery-1.11.1.js"></script>
         
+        <link rel="stylesheet" href="js/vendor/jqueryui-custom/css/jquery-ui.min.css">
+        <script src="js/vendor/jqueryui-custom/jquery.js"></script>
+        <script src="js/vendor/jqueryui-custom/jquery-ui.min.js"></script>
+        
         <script src="js/helpers/loader.js"></script>
+        <script src="js/about.js"></script>
         
         <link rel="shortcut icon" href="images/lbn_globe.png">
         
@@ -104,8 +109,8 @@ and open the template in the editor.
                                As part of the LBN consulting services, our consultants can perform a needs assessment and feasibility analysis that examines the current technology environment and incorporates it into our customer’s vision for the future.<br>
                                Our network strategy and planning experts work with our customers to develop a roadmap for a flexible and dynamic IP-enabled, next generation network.<br>
                                LB Network’s procurement support services alleviate the pressures that clients face when they develop and evaluate requests for proposals from network suppliers, system vendors and service providers because we are vendor-neutral.</p>
-                            <p class="news_info_subtitle">Network/Systems Integration</p>
-                            <p class="news_afer_sub_info">Our systems integration expertise means we can develop a plan specific to a customer’s strategic needs and design a flexible, robust network infrastructure that enables convergence of all existing applications.<br>
+                            <p class="about_info_subtitle">Network/Systems Integration</p>
+                            <p class="about_afer_sub_info">Our systems integration expertise means we can develop a plan specific to a customer’s strategic needs and design a flexible, robust network infrastructure that enables convergence of all existing applications.<br>
                                To learn more about our services, please <b><a href="contact.html">contact us</a></b>.
                             </p>
                         </div>
@@ -119,14 +124,70 @@ and open the template in the editor.
                         <div class="about_info">
                             <img class="about_image_globe" src="images/paper_globe.png" alt="">
                             <p>Thank you for your interest in downloading our technology white papers.<br>
-                               Please select the topic below that you are most interested in to sign-up for the white paper:<br>
-                               OcularIP Overview
-                            </p>
+                                Please select the topic below that you are most interested in to sign-up for the white paper:<p>
+                            <p class="about_info_subtitle" id="about_sub_section_51">OcularIP Overview</p>
                         </div>
                     </div>
                  </div>
                  
              </div>
+            
+            <div id="white_paper_dialog" style="display: none">
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="firstName"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="lastName"></td>
+                    </tr>
+                    <tr>
+                        <td>Company Name</td>
+                        <td><input type="text" name="company"></td>
+                    </tr>
+                    <tr>
+                        <td>Job Title</td>
+                        <td><input type="text" name="jobTitle"></td>
+                    </tr>
+                    <tr>
+                        <td>Address 1</td>
+                        <td><input type="text" name="address1"></td>
+                    </tr>
+                    <tr>
+                        <td>Address 2</td>
+                        <td><input type="text" name="address2"></td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td><input type="text" name="city"></td>
+                    </tr>
+                    <tr>
+                        <td>State</td>
+                        <td><input type="text" name="state"></td>
+                    </tr>
+                    <tr>
+                        <td>Zip</td>
+                        <td><input type="text" name="zip"></td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail</td>
+                        <td><input type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm E-mail</td>
+                        <td><input type="text" name="email_confirm"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text" name="phone"></td>
+                    </tr>
+                    <tr>
+                        <td>Do you have a current need for SLA Reporting?</td>
+                        <td align="center"><input type="checkbox" name="slaReporting"></td>
+                    </tr>
+                </table>
+            </div>
             
             <footer>
                 <div id="footer_nav"></div>

@@ -112,7 +112,7 @@
     cursor: pointer !important;
 }
 
-.news_info_subtitle {
+.about_info_subtitle {
     color: #F35D25;
     font-weight: 900;
     margin-top: 20em;
@@ -130,6 +130,14 @@
     display: inline-block;
 }
 
-.news_afer_sub_info {
+.about_afer_sub_info {
     margin-top: 22.5em;
+}
+
+#about_sub_section_51 {
+    margin-top: 5em !important;
+}
+
+#about_sub_section_51:hover {
+    cursor: pointer !important;
 }

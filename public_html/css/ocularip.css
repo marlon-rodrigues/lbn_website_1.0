@@ -221,3 +221,7 @@ CSS for ocularip file
 #ocularip_sub_section_42_title {
     margin-top: 3em;
 }
+
+#ocularip_sub_section_42_title:hover {
+    cursor: pointer !important;
+}
