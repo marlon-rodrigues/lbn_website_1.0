@@ -59,7 +59,7 @@
     width: 64em;
     position: absolute;
     margin-left: -32em;
-    left: 50%;
+    left: 45%;
     text-align: left !important;
 }
 
@@ -94,6 +94,7 @@
     color: #253639;
     font-size: 1.5em;
     font-weight: 900;
+    margin-left: 9.5em;
 }
 
 .about_info a {
@@ -119,8 +120,7 @@
     width: 12em;
     position: relative;
     display: inline-block;
-    margin-left: -15em;
-    margin-right: 3em;
+    margin-right: 2em;
 }
 
 .about_info p {
