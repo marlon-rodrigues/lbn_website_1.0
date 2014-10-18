@@ -124,6 +124,8 @@
 }
 
 .about_sections_title {
-    width: 61.8em;
+    width: 100%;
     margin-bottom: -3em;
+    text-align: left !important;
+    margin-left: 18.3em;
 }
