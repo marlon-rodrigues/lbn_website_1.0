@@ -7,6 +7,7 @@
 */
 #content {
     font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
+    height: 168em;
 }
 
 #about_head {
@@ -64,7 +65,7 @@
 }
 
 #about_section_1 {
-    height: 14em;
+    height: 20em;
     margin-top: 3.5em;
 }
 
@@ -131,8 +132,4 @@
 
 .news_afer_sub_info {
     margin-top: 22.5em;
-}
-
-.about_info_no_pic {
-    margin-left: 13.9em;
 }
