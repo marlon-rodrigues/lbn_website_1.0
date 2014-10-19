@@ -39,7 +39,6 @@ h3 {
     margin-bottom: -0.5em;
 }
 
-
 #footer_info_1 {
     width: 15em;
     display: inline-block;
@@ -135,4 +134,96 @@ h3 {
 .super_title_link:visited {
     color: black;
     font-weight: 900;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+    #footer_wrapper {
+        height: 18.5em;
+        background: #39657C;
+        width: 100%;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    #footer_info_2 {
+        width: 14em;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left !important;
+        margin-top: 12em;
+        margin-left: -15.5em;
+    }
+    
+    #footer_message {
+        text-align: center;
+        font-size: 0.9em;
+    }
+    
+    #footer_message p {
+        height: auto;
+    }
+    
+    #footer_terms p {
+        font-size: 0.9em;
+    }
+    
+    .nav_foot_about {
+        display: none;
+    }
+    
+    h3 {
+        color: black;
+        font-size: 1.1em;
+        margin-bottom: -0.5em;
+    }
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 1012px) and (min-width: 481px) {
+    #footer_wrapper {
+        height: 18.5em;
+        background: #39657C;
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #footer_info_2 {
+        width: 14em;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left !important;
+        margin-top: 12em;
+        margin-left: -15.5em;
+    }
+    
+    #footer_message {
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    #footer_message p {
+        height: auto;
+    }
+    
+    #footer_terms p {
+        font-size: 1em;
+    }
+    
+    .nav_foot_about {
+        display: none;
+    }
+    
+    h3 {
+        color: black;
+        font-size: 1.1em;
+        margin-bottom: -0.5em;
+    }
 }
