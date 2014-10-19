@@ -109,5 +109,95 @@ CSS for contact file
     margin-top: 2em;
 }
 
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 
+@media only screen and (max-width: 480px) {
+    #content {
+        height: 72em;
+    }
+    
+    #contact_head {
+        background-size: 100em;
+        height: 23em;
+        opacity: 0.7;
+    }
+    
+    #contact_transbox {
+        width: 20em;
+        height: 13em;
+        margin-left: -10em;
+        left: 50%;
+    }
+    
+    .transbox_title {
+        font-size: 1.5em !important;
+    }
+
+    #contact_transbox p {
+        font-size: 0.9em;
+    }
+    
+    h2 {
+        font-size: 1em;
+    }
+    
+    #contact_map p {
+        font-size: 0.9em;
+    }
+    
+    #map_frame {
+        width: 22em;
+        height: 18em;
+    }
+
+    #contact_wrapper h2 {
+        font-size: 1em !important;
+        text-align: left;
+    }
+    
+    #contact_wrapper {
+        height: 18.5em;
+        font-size: 0.8em;
+        text-align: left;
+        padding-left: 2em;
+    }
+    
+    #contact_info_2 h2 {
+        margin-left: 0em !important;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 481px) {
+     #content {
+        height: 96em;
+    }
+    
+    #map_frame {
+        width: 40em;
+        height: 32em;
+    }
+    
+    #contact_wrapper h2 {
+        font-size: 1.2em !important;
+        text-align: left;
+    }
+    
+    #contact_wrapper {
+        height: 18.5em;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 5em;
+    }
+    
+    #contact_info_2 {
+        display: inline;
+    }
+    
+    #contact_info_2 h2 {
+        margin-left: 0em !important;
+    }
+    
+}
 
