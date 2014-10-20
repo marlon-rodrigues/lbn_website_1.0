@@ -7,7 +7,7 @@ CSS for ocularip file
 */
 #content {
     font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
-    height: 246em;
+    height: 210em;
 }
 
 #ocularip_head {
@@ -81,18 +81,18 @@ CSS for ocularip file
 }
 
 #ocularip_section_1 {
-    height: 30em;
+    height: 25em;
     margin-top: 3.5em;
 }
 
 #ocularip_section_2 {
-    height: 93em;
+    height: 77em;
     padding-top: 2.5em;
     background: #F7F7F7;
 }
 
 #ocularip_section_3 {
-    height: 63em;
+    height: 49em;
     padding-top: 2.5em;
 }
 
@@ -146,7 +146,7 @@ CSS for ocularip file
 }
 
 #ocularip_sub_section_12 {
-    margin-top: 7em;
+    margin-top: 5em;
 }
 
 #ocularip_sub_section_21 {
@@ -154,35 +154,35 @@ CSS for ocularip file
 }
 
 #ocularip_sub_section_22 {
-    margin-top: 18em;
-}
-
-#ocularip_sub_section_23 {
-    margin-top: 47em;
-}
-
-#ocularip_sub_section_24 {
-    margin-top: 58em;
-}
-
-#ocularip_sub_section_25 {
-    margin-top: 67em;
-}
-
-#ocularip_sub_section_22_title {
     margin-top: 15em;
 }
 
+#ocularip_sub_section_23 {
+    margin-top: 37em;
+}
+
+#ocularip_sub_section_24 {
+    margin-top: 46em;
+}
+
+#ocularip_sub_section_25 {
+    margin-top: 53em;
+}
+
+#ocularip_sub_section_22_title {
+    margin-top: 12em;
+}
+
 #ocularip_sub_section_23_title {
-    margin-top: 44em;
+    margin-top: 34em;
 }
 
 #ocularip_sub_section_24_title {
-    margin-top: 55em;
+    margin-top: 43em;
 }
 
 #ocularip_sub_section_25_title {
-    margin-top: 64em;
+    margin-top: 51em;
 }
 
 .ocularip_info ul {
@@ -195,11 +195,11 @@ CSS for ocularip file
 }
 
 #ocularip_sub_section_32 {
-    margin-top: 27em;
+    margin-top: 20em;
 }
 
 #ocularip_sub_section_33 {
-    margin-top: 41em;
+    margin-top: 30em;
 }
 
 #ocularip_sub_section_34 {
@@ -207,7 +207,7 @@ CSS for ocularip file
 }
 
 #ocularip_sub_section_33_title {
-    margin-top: 38em;
+    margin-top: 28em;
 }
 
 #ocularip_sub_section_41 {
@@ -215,7 +215,7 @@ CSS for ocularip file
 }
 
 #ocularip_sub_section_42 {
-    margin-top: 6em;
+    margin-top: 5em;
 }
 
 #ocularip_sub_section_42_title {
