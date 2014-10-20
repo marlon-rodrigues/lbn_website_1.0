@@ -137,3 +137,129 @@ CSS for news page
     cursor: pointer !important;
 }
 
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+    #content {
+        font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
+        height: 74em;
+    }
+    
+    #news_head {
+        background-size: 95em;
+        height: 10em;
+    }
+    
+    #news_transbox {
+        position: absolute;
+        width: 9em;
+        margin-top: 0em;
+    }
+    
+    .news_title {
+        font-weight: 900 !important;
+        color: black !important;
+        text-align: center !important;
+        font-size: 2.4em !important;
+    }
+    
+    #news_bottombox {
+        float: right;
+        margin-top: 7.4em;
+        color: black !important;
+        font-weight: bold;
+        padding-right: 1em;
+        font-size: 0.8em;
+    }
+    
+    #news_subtitle {
+        font-size: 1.5em;
+    }
+    
+    .news_sections_container {
+        width: 25em;
+        position: absolute;
+        margin-left: -12.5em;
+        left: 50%;
+        text-align: left !important;
+        font-size: 0.8em;
+    }
+    
+    .news_info_title {
+        font-size: 1em;
+    }
+    
+    .news_info_subtitle {
+        font-size: 0.9em;
+    }
+    
+    .news_info_subtitle_date {
+        font-size: 0.8em;
+        padding-right: 3em;
+        margin-top: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 481px) {
+    #content {
+        font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
+        height: 69em;
+    }
+    
+    #news_head {
+        background-size: 95em;
+        height: 10em;
+    }
+    
+    #news_transbox {
+        position: absolute;
+        width: 20em;
+        margin-top: 0em;
+    }
+    
+    .news_title {
+        font-weight: 900 !important;
+        color: black !important;
+        text-align: center !important;
+        font-size: 2.6em !important;
+    }
+    
+    #news_bottombox {
+        float: right;
+        margin-top: 7.9em;
+        color: black !important;
+        font-weight: bold;
+        padding-right: 1em;
+        font-size: 0.9em;
+    }
+    
+    #news_subtitle {
+        font-size: 1.8em;
+    }
+    
+    .news_sections_container {
+        width: 50em;
+        position: absolute;
+        margin-left: -25em;
+        left: 50%;
+        text-align: left !important;
+        font-size: 0.9em;
+    }
+    
+    .news_info_title {
+        font-size: 1.3em;
+    }
+    
+    .news_info_subtitle {
+        font-size: 1.1em;
+    }
+    
+    .news_info_subtitle_date {
+        font-size: 1em;
+        padding-right: 3em;
+        margin-top: 1.3em;
+    }
+}
