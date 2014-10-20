@@ -179,7 +179,7 @@ CSS for wood file
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 481px) {
+@media only screen and (max-width: 1012px) and (min-width: 481px) {
     #content {
         height: 58em;
     }
