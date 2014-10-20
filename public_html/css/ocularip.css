@@ -225,3 +225,257 @@ CSS for ocularip file
 #ocularip_sub_section_42_title:hover {
     cursor: pointer !important;
 }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+    #content {
+        height: 218em;
+    }
+    
+    #ocularip_head {
+        background-size: 100em;
+        height: 23em;
+        opacity: 0.7;
+    }
+    
+    #ocularip_transbox {
+        width: 20em;
+        height: 16em;
+        margin-left: -10em;
+        left: 50%;
+    }
+    
+    .ocularip_title {
+        font-size: 1.5em !important;
+    }
+
+    #ocularip_transbox p {
+        font-size: 0.9em;
+    }
+    
+    #ocularip_subtitle {
+        font-size: 1.1em;
+    }
+    
+    .ocularip_image_globe {
+        display: none;
+    }
+    
+    .ocularip_sections_container {
+        width: 25em;
+        position: absolute;
+        margin-left: -12.5em;
+        left: 46%;
+        text-align: left !important;
+        font-size: 0.8em;
+    }
+    
+    .ocularip_info_title {
+        font-size: 1em;
+        margin-left: 0em;
+    }
+    
+    #ocularip_section_1 {
+        height: 31em;
+        margin-top: 3.5em;
+    }
+
+    #ocularip_section_2 {
+        height: 87em;
+        background: #F7F7F7;
+        padding-top: 2.5em;
+    }
+
+    #ocularip_section_3 {
+        height: 54em;
+        padding-top: 2.5em;
+    }
+    
+    #ocularip_sub_section_12 {
+        margin-top: 8.5em;
+    }
+    
+    #ocularip_sub_section_22 {
+        margin-top: 20em;
+    }
+    
+    #ocularip_sub_section_23 {
+        margin-top: 57em;
+    }
+    
+    #ocularip_sub_section_24 {
+        margin-top: 68em;
+    }
+    
+    #ocularip_sub_section_25 {
+        margin-top: 78em;
+    }
+    
+    #ocularip_sub_section_22_title {
+        margin-top: 18em;
+    }
+    
+    #ocularip_sub_section_23_title {
+        margin-top: 55em;
+    }
+    
+    #ocularip_sub_section_24_title {
+        margin-top: 66em;
+    }
+    
+    #ocularip_sub_section_25_title {
+        margin-top: 76em;
+    }
+    
+    #ocularip_sub_section_32 {
+        margin-top: 29em;
+    }
+    
+    #ocularip_sub_section_33 {
+        margin-top: 44em;
+    }
+    
+    #ocularip_sub_section_33_title {
+        margin-top: 42em;
+    }
+    
+    #ocularip_sub_section_42 {
+        margin-top: 6em;
+    }
+    
+    #ocularip_sub_section_42_title {
+        margin-top: 4em;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 481px) {
+    #content {
+        height: 198em;
+    }
+    
+    #ocularip_head {
+        background-size: 100em;
+        height: 23em;
+        opacity: 0.7;
+    }
+    
+    #ocularip_transbox {
+        width: 40em;
+        height: 16.5em;
+        margin-left: -20em;
+        left: 50%;
+    }
+    
+    .ocularip_title {
+        font-size: 1.8em !important;
+    }
+
+    #about_transbox p {
+        font-size: 1em;
+    }
+    
+    #ocularip_subtitle {
+        font-size: 1.5em;
+    }
+    
+    .ocularip_image_globe {
+        width: 10em;
+        position: relative;
+        display: inline-block;
+        margin-right: 2em;
+    }
+    
+    .ocularip_sections_container {
+        width: 50em;
+        position: absolute;
+        margin-left: -25em;
+        left: 46%;
+        text-align: left !important;
+        font-size: 0.9em;
+    }
+    
+    .ocularip_info_title {
+        font-size: 1.3em;
+        margin-left: 9.2em;
+    }
+    
+    #ocularip_section_1 {
+        height: 25em;
+        margin-top: 3.5em;
+    }
+
+    #ocularip_section_2 {
+        height: 75em;
+        background: #F7F7F7;
+        padding-top: 2.5em;
+    }
+
+    #ocularip_section_3 {
+        height: 47em;
+        padding-top: 2.5em;
+    }
+    
+    #ocularip_section_4 {
+        height: 18em;
+        padding-top: 2.5em;
+    }
+    
+    #ocularip_sub_section_12 {
+        margin-top: 6.5em;
+    }
+    
+    #ocularip_sub_section_22 {
+        margin-top: 15em;
+    }
+    
+    #ocularip_sub_section_23 {
+        margin-top: 40em;
+    }
+    
+    #ocularip_sub_section_24 {
+        margin-top: 49em;
+    }
+    
+    #ocularip_sub_section_25 {
+        margin-top: 58em;
+    }
+    
+    #ocularip_sub_section_22_title {
+        margin-top: 13em;
+    }
+    
+    #ocularip_sub_section_23_title {
+        margin-top: 38em;
+    }
+    
+    #ocularip_sub_section_24_title {
+        margin-top: 47em;
+    }
+    
+    #ocularip_sub_section_25_title {
+        margin-top: 56em;
+    }
+    
+    #ocularip_sub_section_32 {
+        margin-top: 20em;
+    }
+    
+    #ocularip_sub_section_33 {
+        margin-top: 31em;
+    }
+    
+    #ocularip_sub_section_33_title {
+        margin-top: 29em;
+    }
+    
+    #ocularip_sub_section_42 {
+        margin-top: 5em;
+    }
+    
+    #ocularip_sub_section_42_title {
+        margin-top: 3em;
+    }
+}
