@@ -7,7 +7,7 @@
 */
 #content {
     font-family: "Gotham A","Gotham B","Helvetica",sans-serif;
-    height: 174em;
+    height: 162em;
 }
 
 #about_head {
@@ -70,18 +70,18 @@
 }
 
 #about_section_2 {
-    height: 26em;
+    height: 24em;
     background: #F7F7F7;
     padding-top: 2.5em;
 }
 
 #about_section_3 {
-    height: 33em;
+    height: 29em;
     padding-top: 2.5em;
 }
 
 #about_section_4 {
-    height: 36em;
+    height: 32em;
     background: #F7F7F7;
     padding-top: 2.5em;
 }
@@ -115,7 +115,7 @@
 .about_info_subtitle {
     color: #F35D25;
     font-weight: 900;
-    margin-top: 20em;
+    margin-top: 14em;
 }
 
 .about_image_globe {
@@ -131,7 +131,7 @@
 }
 
 .about_afer_sub_info {
-    margin-top: 22.5em;
+    margin-top: 16em;
 }
 
 #about_sub_section_51 {
@@ -140,4 +140,179 @@
 
 #about_sub_section_51:hover {
     cursor: pointer !important;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+    #content {
+        height: 142em;
+    }
+    
+    #about_head {
+        background-size: 100em;
+        height: 23em;
+        opacity: 0.7;
+    }
+    
+    #about_transbox {
+        width: 20em;
+        height: 16.5em;
+        margin-left: -10em;
+        left: 50%;
+    }
+    
+    .about_title {
+        font-size: 1.5em !important;
+    }
+
+    #about_transbox p {
+        font-size: 0.85em;
+    }
+    
+    .about_image_globe {
+        display: none;
+    }
+    
+    .about_sections_container {
+        width: 25em;
+        position: absolute;
+        margin-left: -12.5em;
+        left: 46%;
+        text-align: left !important;
+        font-size: 0.8em;
+    }
+    
+    .about_info_title {
+        font-size: 1em;
+        margin-left: 0em;
+    }
+    
+    #about_section_1 {
+        height: 11em;
+        margin-top: 3.5em;
+    }
+
+    #about_section_2 {
+        height: 25em;
+        background: #F7F7F7;
+        padding-top: 2.5em;
+    }
+
+    #about_section_3 {
+        height: 30em;
+        padding-top: 2.5em;
+    }
+
+    #about_section_4 {
+        height: 33em;
+        background: #F7F7F7;
+        padding-top: 2.5em;
+    }
+
+    #about_section_5 {
+        height: 15em;
+        padding-top: 2.5em;
+    }
+    
+    .about_info_subtitle {
+        margin-top: 26em;
+    }
+    
+    .about_afer_sub_info {
+        margin-top: 28em;
+    }
+    
+    #about_sub_section_51 {
+        margin-top: 6em !important;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 481px) {
+    #content {
+        height: 146em;
+    }
+    
+    #about_head {
+        background-size: 100em;
+        height: 23em;
+        opacity: 0.7;
+    }
+    
+    #about_transbox {
+        width: 40em;
+        height: 16.5em;
+        margin-left: -20em;
+        left: 50%;
+    }
+    
+    .about_title {
+        font-size: 1.8em !important;
+    }
+
+    #about_transbox p {
+        font-size: 1em;
+    }
+    
+    .about_image_globe {
+        width: 10em;
+        position: relative;
+        display: inline-block;
+        margin-right: 2em;
+    }
+    
+    .about_sections_container {
+        width: 50em;
+        position: absolute;
+        margin-left: -25em;
+        left: 46%;
+        text-align: left !important;
+        font-size: 0.9em;
+    }
+    
+    .about_info_title {
+        font-size: 1.3em;
+        margin-left: 9.2em;
+    }
+    
+    #about_section_1 {
+        height: 15em;
+        margin-top: 3.5em;
+    }
+
+    #about_section_2 {
+        height: 23em;
+        background: #F7F7F7;
+        padding-top: 2.5em;
+    }
+
+    #about_section_3 {
+        height: 28em;
+        padding-top: 2.5em;
+    }
+
+    #about_section_4 {
+        height: 28em;
+        background: #F7F7F7;
+        padding-top: 2.5em;
+    }
+
+    #about_section_5 {
+        height: 10em;
+        padding-top: 2.5em;
+    }
+    
+    .about_info_subtitle {
+        margin-top: 16em;
+    }
+    
+    .about_afer_sub_info {
+        margin-top: 18em;
+    }
+    
+    #about_sub_section_51 {
+        margin-top: 6em !important;
+    }
 }
