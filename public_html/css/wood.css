@@ -116,3 +116,126 @@ CSS for wood file
 #wood_subsection_info_13 {
     margin-top: 26em;
 }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+    #content {
+        height: 60em;
+    }
+    
+    #wood_head {
+        background-size: 100em;
+        height: 23em;
+        opacity: 0.7;
+    }
+    
+    #wood_transbox {
+        width: 20em;
+        height: 16em;
+        margin-left: -10em;
+        left: 50%;
+    }
+    
+    .wood_title {
+        font-size: 1.5em !important;
+    }
+
+    #wood_transbox p {
+        font-size: 0.9em;
+    }
+    
+    .wood_image_globe {
+        display: none;
+    }
+    
+    .wood_sections_container {
+        width: 25em;
+        position: absolute;
+        margin-left: -12.5em;
+        left: 46%;
+        text-align: left !important;
+        font-size: 0.8em;
+    }
+    
+    .wood_info_title {
+        font-size: 1em;
+        margin-left: 0em;
+    }
+    
+    #wood_section_1 {
+        height: 31em;
+        margin-top: 3.5em;
+    }
+    
+    #wood_subsection_info_12 {
+        margin-top: 11em;
+    }
+    
+    #wood_subsection_info_13 {
+        margin-top: 24em;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 481px) {
+    #content {
+        height: 58em;
+    }
+    
+    #wood_head {
+        background-size: 100em;
+        height: 23em;
+        opacity: 0.7;
+    }
+    
+    #wood_transbox {
+        width: 40em;
+        height: 16.5em;
+        margin-left: -20em;
+        left: 50%;
+    }
+    
+    .wood_title {
+        font-size: 1.8em !important;
+    }
+
+    #wood_transbox p {
+        font-size: 1em;
+    }
+    
+    .wood_image_globe {
+        width: 10em;
+        position: relative;
+        display: inline-block;
+        margin-right: 2em;
+    }
+    
+    .wood_sections_container {
+        width: 50em;
+        position: absolute;
+        margin-left: -25em;
+        left: 46%;
+        text-align: left !important;
+        font-size: 0.9em;
+    }
+    
+    .wood_info_title {
+        font-size: 1.3em;
+        margin-left: 9.2em;
+    }
+    
+    #wood_section_1 {
+        height: 25em;
+        margin-top: 3.5em;
+    }
+    
+    #wood_subsection_info_12 {
+        margin-top: 8em;
+    }
+    
+    #wood_subsection_info_13 {
+        margin-top: 20em;
+    }
+}
