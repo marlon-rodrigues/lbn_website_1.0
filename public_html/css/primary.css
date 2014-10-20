@@ -12,7 +12,7 @@ body {
    height:100%;
    width:100%;  
    overflow-x:hidden;
-   min-width: 405px; //min-width required - less than this no action will be taken
+   min-width: 410px; //min-width required - less than this no action will be taken
 }
 
 #container {
