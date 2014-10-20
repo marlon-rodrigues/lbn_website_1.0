@@ -30,7 +30,6 @@ body {
     position: relative;
 }
 
-
 #main_prog_image {
     width: 100%;
     height: 100%;
@@ -57,12 +56,13 @@ body {
 
 #mac_ipad_img {
     width: 23em;
-    margin-top: -4em;
+    //margin-top: -4em;
 }
 
 #main_prog_text_wrapper {
     margin-top: 2em;
     margin-left: -15em;
+    vertical-align: top;
 }
 
 #main_prog_title {
